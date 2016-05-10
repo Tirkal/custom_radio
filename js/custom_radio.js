@@ -18,10 +18,4 @@ $(function (){
     });
 
 
-    //vérif saisir
-    $('#btn').click(function(){
-        console.log($('input[name=choix]:checked').val());
-        console.log($('input[name=sexe]:checked').val());
-    });
-
 });
