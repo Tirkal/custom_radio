@@ -17,7 +17,7 @@ in html file please insert this in the
 
 To create a custom radio widget :
 
-the custom_radio class is mandatory
+the **custom_radio** class is mandatory
 ```
 <div class="custom_radio">
         <input type="radio" name="choix" value="oui" /><label>Oui</label>
