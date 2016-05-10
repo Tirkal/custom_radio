@@ -1,0 +1,20 @@
+.off, .on{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    background-size: cover;
+}
+
+.off{
+    background-image: url('../img/off.png');
+}
+
+.on{
+    background-image: url('../img/on.png');
+}
+
+.off:hover{
+    cursor: pointer;
+}
