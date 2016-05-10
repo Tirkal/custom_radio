@@ -2,12 +2,12 @@
 Radio button widget
 
 ###Require
-Jquery library
+[Jquery](https://jquery.com/)
 
 ###Usage :
 
 in html file please insert this in the
-```
+```html
 <head>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/jquery-1.12.3.min.js"></script>
@@ -18,7 +18,7 @@ in html file please insert this in the
 To create a custom radio widget :
 
 the **custom_radio** class is mandatory
-```
+```html
 <div class="custom_radio">
         <input type="radio" name="choix" value="oui" /><label>Oui</label>
         <input type="radio" name="choix" value="non" /><label>Non</label>
